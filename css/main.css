@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+
+
+
+
+
+
+#bootstrap-override header {
+    /* override Bootstrap's style here */
+	width: 100%;
+	background-color: #46FF79;
+}
+
+h1,h2,h3{
+	font-family: 'Aref Ruqaa', serif;
+}
+
+p{
+	font-family: 'Droid Sans', sans-serif;
+	
+}
+
+
+main{
+	background-color: #3AFFDF;
+}
+
+#promo {
+	text-align: center;
+	padding: 40px;
+	background: url(../img/climatebg.jpg) no-repeat;
+	background-size:cover;
+
+}	
+
+
+#promo .jumbotron{
+	border-radius: 20px;
+	padding: 40px;
+	background-color: rgba(255,255,255,0.75);
+	max-width: 800px;
+	margin: 0 auto;
+	
+}
+
+#sit-section{
+	text-align: center;
+	padding: 60px 0;
+}
+
+#sit-section h1{
+	margin-bottom: 30px;
+	font-weight: normal;
+	
+}
+
+#sit-section p{
+	max-width: 800px;
+	font-size: 20px;
+	margin: 0 auto;
+	
+}
+
+#item {
+	margin-top: 36px;
+	text-align: center;
+}
+
+#item h2 {
+    font-weight: normal;
+	margin-top: 13px;
+	margin-bottom: 20px;
+	font-size: 24px;
+	
+	
+}
+
+/* -- make images responsive -- */
+#galary img {
+    width: 100%;
+    height: auto;
+}
+
+/* -- this will create a horizontal gap of white space between rows -- */
+#galary .col {
+    margin: 0 0 2rem 0;
+}
+
+.footer{
+		float: left;
+		width: 100%;
+		background-color: #34E898;
+		text-align: center;
+	}
+	
+	
+	
+.footer li {
+		width: 18%;
+		float: left;
+		list-style: none;
+	
+	}
+
+#f li {
+		width: 18%;
+		float: left;
+		list-style: none;
+	
+	}
+
+
+.footer a:hover{
+	
+	color: aliceblue;
+}
+
+
+#bootstrap-override .pic{
+	
+	padding: 20px;
+	margin: 10px;
+	
+	
+}
+
+#bootstrap-override .pic{
+	clear: right;
+	padding: 20px;
+	margin: 10px;
+	
+	
+}
+
+#bootstrap-override .map{
+	text-align: center;
+	padding: 30px;
+}
+
+#bootstrap-override .news li{
+	
+	background-color: #34E898;
+	
+	
+	
+}
+
+.userinfo{
+	text-align: center;
+	background-color: #34E898;
+	padding: 20px;
+	
+}
